@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: white;
+    border: 1px solid red;
+    padding-bottom: 5px;
+}
+#logo{
+    width: 40px;
+    margin: 10px 10px 0;
+}
+.logo-title{
+    font-size: 30px;
+    font-weight: bolder;
+    vertical-align: 30%;
+}
+body{
+    background-color: lightgray;
+}
+main{
+
+    width: 1200px;
+    margin: auto;
+
+}
+.container-top{
+    margin-top: 50px;
+    background-color: white;
+    padding: 15px 50px 10px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+#button-left{
+    background-color: rgb(98, 165, 252);
+    color:whitesmoke;
+}
+#button-right{
+    background-color: white;
+    border: 0.5px solid lightgrey;
+    color: lightgray;
+}
