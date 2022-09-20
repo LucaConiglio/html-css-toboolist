@@ -18,10 +18,11 @@ header{
 }
 body{
     background-color: rgb(237, 237, 237);
+    width: 100vw
 }
 main{
 
-    width: 1200px;
+    width: 1500px;
     margin: auto;
 }
 .container-top{
@@ -67,14 +68,37 @@ h3{
 #verify{
     border: 1px solid rgb(53, 180, 57);
     border-radius: 100%;
-    padding: 2px 3px;
+    padding: 1px 3px;
     color: rgb(53, 180, 57);
     margin-right: 10px;
 }
-.last-span{
+#negative{
+    border: 1px solid rgb(180, 53, 53);
+    border-radius: 100%;
+    padding: 4px 3px;
+    color: rgb(180, 53, 53);
+    margin-right: 10px;
+    font-size: 10px;
+}
+small{
     background-color: rgb(98, 165, 252);
     color: white;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 20px;
     margin-left: 10px;
+}
+#goals{
+    background-color: rgb(165, 89, 236);
+}
+#recruiting{
+    background-color: rgb(74, 168, 127);
+}
+#mobile{
+    background-color: rgb(232, 166, 43);
+}
+#website{
+    background-color: rgb(228, 82, 211);
+}
+#sales{
+    background-color: rgb(129, 215, 54);
 }
