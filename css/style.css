@@ -5,7 +5,6 @@
 }
 header{
     background-color: white;
-    border: 1px solid red;
     padding-bottom: 5px;
 }
 #logo{
@@ -55,23 +54,27 @@ main{
     font-size: x-small;
 }
 .content-box{
-    padding: 40px 50px;
+    padding: 30px 50px 0 50 ;
 }
 h3{
     font-size: 20;
 }
 .row{
-    padding: 50px;
+    
+    display: inline-block;
+    padding: 15px 0;
 }
 #verify{
     border: 1px solid rgb(53, 180, 57);
     border-radius: 100%;
-    padding: 2px;
+    padding: 2px 3px;
     color: rgb(53, 180, 57);
+    margin-right: 10px;
 }
 .last-span{
     background-color: rgb(98, 165, 252);
     color: white;
     padding: 10px 15px;
     border-radius: 20px;
+    margin-left: 10px;
 }
