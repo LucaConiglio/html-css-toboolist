@@ -18,13 +18,12 @@ header{
     vertical-align: 30%;
 }
 body{
-    background-color: lightgray;
+    background-color: rgb(237, 237, 237);
 }
 main{
 
     width: 1200px;
     margin: auto;
-
 }
 .container-top{
     margin-top: 50px;
@@ -47,4 +46,32 @@ main{
     background-color: white;
     border: 0.5px solid lightgrey;
     color: lightgray;
+}
+.container{
+    background-color: white;
+    margin-top: 2px;
+}
+.symbol-arrow{
+    font-size: x-small;
+}
+.content-box{
+    padding: 40px 50px;
+}
+h3{
+    font-size: 20;
+}
+.row{
+    padding: 50px;
+}
+#verify{
+    border: 1px solid rgb(53, 180, 57);
+    border-radius: 100%;
+    padding: 2px;
+    color: rgb(53, 180, 57);
+}
+.last-span{
+    background-color: rgb(98, 165, 252);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
 }
